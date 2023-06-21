@@ -8,7 +8,7 @@ function MATLAB_Plot_Settings(figure, legend, axes)
     set(axes, 'TickLength', [0.0075 0.025], 'TickDir', 'out', 'XColor', 'black', 'Box', 'on', 'FontUnits', 'points', 'FontName', 'Maven Pro', 'FontSize', 16,'LabelFontSizeMultiplier',1, 'YColor', 'black');
     if legend ~= 0
         legend.FontSize = 16;
-        legend.Location = 'best';
+        legend.Location = 'bestoutside';
     end
     figure.WindowState = 'maximized';
 
