@@ -1,3 +1,5 @@
+% Cedric Boucher 2023
+
 function MATLAB_Plot_Settings(figure, legend, axes)
     %{
         to get figure you can use gcf or you can use <variable> = figure()
